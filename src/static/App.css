@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+.movies__container {
+  padding: 50px;
+  width: 100%;
+  background-color: #ecf0f5;
+}
+
+.movies {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 250px;
+  gap: 50px;
+}
