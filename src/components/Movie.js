@@ -6,7 +6,7 @@ import '../static/Movie.css';
 function Movie({id, year, title, summary, poster, genres}){
     return (
       <Link to={{
-        pathname:"/detail",
+        pathname:`detail/${id}`,
         state:{
           id, year, title, summary, poster, genres
         }

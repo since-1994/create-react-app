@@ -1,6 +1,8 @@
 import React from 'react';
 
-function Detail({location:{state:{id, year, title, summary, poster, genres}}}){
+function Detail(props){
+    const {location:{state:{id, year, title, summary, poster, genres}}} = props;
+    console.log(props);
     return (
         <div className="movie__detail">
             <img src={poster} alt="movie-poster"/>
